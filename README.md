@@ -52,7 +52,7 @@ Number of features: 19
 
 **Target Variable**
 
-'views': Count of views
+**'views':** Count of views
 
 **Project Work flow**
 
@@ -95,6 +95,7 @@ In all these models our errors have been in the range of 2,00,000 which is aroun
 **Datawrangling :**
 
 Numpy
+
 Pandas
 
 **For Graphing :**
