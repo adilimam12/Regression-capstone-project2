@@ -1,80 +1,29 @@
-# Regression-capstone-project2
-**Problem Statement:**
-TED is devoted to spreading powerful ideas on just about any topic. These datasets contain over 4,000 TED talks including transcripts in many languages Founded in 1984 by Richard Salman as a nonprofit organization that aimed at bringing experts from the fields of Technology, Entertainment, and Design together. TED Conferences have gone on to become the Mecca of ideas from virtually all walks of life. As of 2015, TED and its sister TEDx chapters have published more than 2000 talks for free consumption by the masses and its speaker list boasts of the likes of Al Gore, Jimmy Wales, Shahrukh Khan, and Bill Gates.
+# Ted Talk Views Prediction
 
-**Objective:**
-To build a predictive model, which could help in predicting the views of the videos uploaded on the TEDx website.
+This repository contains code and resources for a project that focuses on predicting the number of views for TED Talks. The project aims to develop a machine learning model that can accurately estimate the popularity of TED Talk videos based on various features.
 
-**Dataset Information**
 
-Number of observations: 4,005
-Number of features: 19
 
-**Features information:**
 
-**The dataset contains features like:
 
-**talk_id:** Talk identification number provided by TED
+![Screenshot 2023-05-18 201535](https://github.com/adilimam12/Regression-capstone-project2/assets/113783902/093cce20-7f7a-4db8-92eb-08357c3b16d8)
 
-**title:** Title of the talk
 
-**speaker_1:** First speaker in TED's speaker list
 
-**all_speakers:** Speakers in the talk
+**Project Overview**
 
-**occupations:** Occupations of the speakers
+The goal of this project is to build a predictive model that can forecast the number of views a TED Talk video is likely to receive. By understanding the factors that contribute to video popularity, such as topic, speaker, and presentation style, the project aims to provide insights into the factors that drive engagement and viewership on the TED platform.
 
-**about_speakers:** Blurb about each speaker
+**Project Features**
 
-**recorded_date:** Date the talk was recorded
+Data collection: Gathering a dataset of TED Talk videos, including features such as the title, speaker, description, duration, and tags.
+Data preprocessing: Cleaning and preparing the dataset by handling missing values, transforming categorical variables, and normalizing numerical features.
+Feature engineering: Extracting relevant features from the available data, such as sentiment analysis of the description, word count, or popularity of the speaker.
+Exploratory data analysis: Analyzing the relationships between features and the target variable (number of views) to gain insights and identify patterns.
+Model selection and training: Experimenting with different machine learning algorithms, such as linear regression, random forest, or gradient boosting, to build the predictive model.
+Model evaluation: Assessing the performance of the trained models using appropriate evaluation metrics, such as mean squared error or R-squared.
+Deployment: Deploying the trained model in a production environment or creating an API for real-time predictions.
 
-**published_date:** Date the talk was published to TED.com
-
-**event:** Event or medium in which the talk was given
-
-**native_lang:** Language the talk was given in
-
-**available_lang:** All available languages (lang_code) for a talk
-
-**comments:** Count of comments
-
-**duration:** Duration in seconds**
-
-**topics:** Related tags or topics for the talk
-
-**related_talks:** Related talks (key='talk_id',value='title')
-
-**url:** URL of the talk
-
-**description:** Description of the talk
-
-**transcript:** Full transcript of the talk
-
-**Target Variable**
-
-**'views':** Count of views
-
-**Project Work flow**
-
-Importing Libraries and loading dataset
-
-EDA on features
-
-Feature Engineering
-
-Missing value treatment
-
-Outlier treatment
-
-Feature selection
-
-Fitting the regression models and HyperParameter Tuning
-
-Comparison of Models
-
-Final selection of the model
-
-Conclusion
 
 **Models used:**
 
